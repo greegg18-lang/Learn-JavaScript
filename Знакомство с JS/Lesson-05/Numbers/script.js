@@ -1,0 +1,10 @@
+let x = prompt('Введите первое число', '');
+let y = prompt('Введите второе число', '');
+alert('Cумма ваших чисел равна = ' + (+x + +y) );
+alert('Разность ваших чисел равна = ' + (+x - +y) );
+alert('Произведение ваших чисел равно = ' + (+x * +y) );
+alert('Частное ваших чисел равно = ' + (+x / +y) );
+console.log(Number(x) + Number(y));
+console.log(Number(x) - Number(y));
+console.log(Number(x) * Number(y));
+console.log(Number(x) / Number(y));
